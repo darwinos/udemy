@@ -74,7 +74,7 @@ done
 
 # Copy mounted web config to guest web directory
 
-wget -O /etc/apache2/sites-available/mylms.conf https://raw.githubusercontent.com/darwinos/lms-fr/master/03-Moodle/00-Ressources/files/mylms.conf
+wget -O /etc/apache2/sites-available/mylms.conf https://raw.githubusercontent.com/darwinos/udemy/master/Moodle/files/mylms.conf
 
 # Download and extract Moodle
 

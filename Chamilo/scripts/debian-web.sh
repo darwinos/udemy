@@ -77,7 +77,7 @@ done
 
 # Copy remote web config to guest web directory
 
-wget -O /etc/apache2/sites-available/mylms.conf https://raw.githubusercontent.com/darwinos/lms-fr/master/01-Chamilo/00-Ressources/files/mylms.conf
+wget -O /etc/apache2/sites-available/mylms.conf https://raw.githubusercontent.com/darwinos/udemy/master/Chamilo/files/mylms.conf
 
 # Download and extract Chamilo
 

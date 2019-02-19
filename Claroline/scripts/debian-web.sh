@@ -74,7 +74,7 @@ done
 
 # Copy remote web config to guest web directory
 
-wget -O /etc/apache2/sites-available/mylms.conf https://raw.githubusercontent.com/darwinos/lms-fr/master/02-Claroline_Connect/00-Ressources/files/mylms.conf
+wget -O /etc/apache2/sites-available/mylms.conf https://raw.githubusercontent.com/darwinos/udemy/master/Claroline/files/mylms.conf
 
 # Download and extract Claroline Connect
 
