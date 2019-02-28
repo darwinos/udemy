@@ -81,7 +81,6 @@ wget -O /etc/apache2/sites-available/mylms.conf https://raw.githubusercontent.co
 
 # Download and extract Chamilo
 
-apt-get install -y python-xapian libxapian-dev
 mkdir /var/www/mylms
 wget -qO - https://github.com/chamilo/chamilo-lms/releases/download/v1.11.8/chamilo-1.11.8-php7.tar.gz | tar zxv -C /var/www/mylms/ --strip-components 1
 
