@@ -79,7 +79,8 @@ wget -O /etc/apache2/sites-available/mylms.conf https://raw.githubusercontent.co
 # Download and extract Claroline Connect
 
 mkdir /var/www/mylms
-wget -qO - http://packages.claroline.net/releases/17.01/claroline-17.01.tar.gz | tar zxv -C /var/www/mylms/ --strip-components 1
+wget -qO - http://packages.claroline.net/releases/16.05/claroline-16.05.tar.gz | tar zxv -C /var/www/mylms/ --strip-components 1
+echo "<?php header('Location: https://localhost:8443/web/app.php');?>" > /var/www/mylms/index.php
 
 # Generate self-signed certificate (for development)
 
